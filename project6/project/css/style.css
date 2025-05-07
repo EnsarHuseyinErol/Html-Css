@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ECE9E3;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.fixedkutu{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(35, 196, 57);
+    border:1px solid rgb(0, 0, 0);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  
+}
+.fixedkutu p
+{
+    text-align: center;
+    padding: 10px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    
+}
+
+ a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px #000000;
+  }
+
+
+
+
+.liste {
+    list-style-position: inside;
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+
+}
+
+.baslik {
+    width: 100%;
+    height: 110px;
+    line-height: 110px;
+    font-weight: bold;
+    border: 5px inset rgb(0, 0, 0);
+    color: transparent;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-image: url(../img/download.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-clip: text;
+
+}
+
+.baslikyani {
+    background-image: url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-origin: border-box;
+}
+
+.menu {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    font-size: 17px;
+    color: black;
+    border: 5px rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-image: url(../img/download.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-clip: text;
+    background-attachment: fixed;
+}
+
+a:hover {
+    text-decoration: dashed;
+    color: red;
+}
+
+
+#mydiv1 {
+    padding: 25px;
+    width: 800px;
+    height: 200px;
+
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    border: 3px dashed black;
+
+}
+.duzensiz
+{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+
+}
+span {
+    text-align: left;
+}
+
+#mydiv2 {
+    padding: 20px;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    top: 450px;
+    left: 1100px;
+    border: 3px groove black;
+
+}
+
+#mydiv3 {
+    width: 1300px;
+    height: 130px;
+    border: 3px dashed black;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    top: 1320px;
+    left: 350px;
+
+}
+
+#mydiv4 {
+    width: 1000px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 1570px;
+    left: 500px;
+    border: 3px groove black;
+    overflow-y:scroll ;
+    padding: 15px;
+
+}
+b
+{
+     text-decoration: underline rgb(0, 0, 0) dashed 3px;
+}
+#mydiv5 {
+    width: 1300px;
+    height: 100px;
+    line-height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 2480px;
+    left: 320px;
+    text-align: center;
+    border: 3px dashed black;
+    padding: 20px;
+
+}
+
+#mydiv6 {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 2600px;
+    left: 320px;
+    border: 3px groove black;
+    overflow-x:scroll ;
+
+}
+
+
+.bolum {
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+#bolum1 {
+    background-image: url(../img/tamamı.avif);
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+#bolum2 {
+    background-image: url(../img/premium_photo-1661877737564-3dfd7282efcb.avif);
+    margin-bottom: 20px;
+}
+
+
+
+#bolum3 {
+    background-image: url(../img/premium_photo-1678565869434-c81195861939.avif);
+    margin-bottom: 20px;
+
+}
+
+b {
+    font-size: 24px;
+}

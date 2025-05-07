@@ -1,0 +1,221 @@
+*
+{
+    margin:0;
+    padding: 0;
+    background-color:#ECE9E3;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px #000000;
+  }
+.duzensiz
+{
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    text-decoration: dashed;
+    color: red;
+}
+
+.baslik
+{
+    width: 100%;
+    height: 110px;
+    line-height: 110px;
+    font-weight: bold;
+    border: 5px inset rgb(0, 0, 0);
+    color: transparent;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-image: url(../img/download.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-clip:text;
+
+}
+.baslikyani
+{
+    background-image:url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-origin: border-box;
+}
+.menu
+{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    font-size: 17px;
+    color: black;
+    border: 5px  rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-image: url(../img/download.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-clip:text;
+    background-attachment: fixed;
+}
+
+
+#mydiv1
+{
+    padding: 50px;
+width: 700px;
+height: 200px;
+margin: 150px 650px auto;
+text-align: center;
+background-color: white;
+position: absolute;
+
+border: 3px dashed black;
+
+}
+span
+{
+    text-align: left;
+}
+
+#mydiv2
+{
+margin: 450px 500px  ;    
+width: 1000px;
+height: 530px;
+background-color: white;
+position: absolute;
+
+border: 3px groove black;
+padding: 30px;
+
+}
+#mydiv3
+{
+    padding: 50px;
+    width: 800px;
+    height: 200px;
+    margin: 200px 300px  ; 
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    /* top: 450px;
+    left: 200px; */
+    border: 3px dashed black;
+
+}
+#mydiv4
+{
+    width: 500px;
+    height: 700px;
+    margin: 200px 1200px;
+    background-color: white;
+    position: absolute;
+    /* top: 450px;
+    left: 1100px; */
+    border: 3px groove black;
+    padding: 17px;
+
+}
+#mydiv5
+{
+    padding: 20px;
+width: 1300px;
+height: 100px;
+line-height: 50px;
+background-color: white;
+position: absolute;
+margin:200px 300px;
+text-align: center;
+border: 3px dashed black;
+
+}
+#mydiv6
+{
+width: 650px;
+height: 350px;
+background-color: white;
+position: absolute;
+margin:350px 300px;
+border: 3px groove black;
+padding: 30px;
+
+}
+#mydiv7
+{
+width: 650px;
+height: 350px;
+background-color: white;
+position: absolute;
+margin:350px 960px;
+border: 3px groove black;
+padding: 30px;
+
+}
+b
+{
+     text-decoration: underline rgb(0, 0, 0) dashed 5px;
+}
+
+
+
+.bolum{
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+#bolum1{
+    background-image: url(../img/index2foto3.avif);
+margin-bottom: 20px;
+background-color: rgb(0, 0, 0);
+
+
+}
+#bolum2
+{
+    background-image: url(../img/index2foto2.avif);
+    margin-bottom: 20px;
+}
+
+
+
+#bolum3{
+    background-image: url(../img/index2foto1.avif);
+    margin-bottom: 20px;
+
+}
+b{
+    font-size: 24px;
+}
